@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS meals (id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100) NOT NULL UNIQUE) ENGINE=InnoDB;
+INSERT IGNORE INTO meals(id,name) VALUES (1,'N/A'),(2,'Breakfast'),(3,'Lunch'),(4,'Dinner'),(5,'Snack');
